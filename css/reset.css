@@ -1,0 +1,90 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css");
+
+
+
+/*********** Root Style ************/
+:root{
+  /* colors */
+  --primary1-500: #FF5800;
+  --primary1-400: #FF7134;
+  --primary1-300: #FF8B5A; 
+  --primary1-200: #FFAB8A; 
+  --primary1-100: #FFCCB8; 
+  --primary1-50: #FCE9E6; 
+  --primary1-600: #F45300; 
+  --primary1-700: #E64C00; 
+  --primary1-800: #D94400; 
+  --primary1-900: #C13600; 
+
+  --primary2-50:#E7EDFF;
+  --primary2-100:#C5D5F2;
+  --primary2-200:#A9B8D9;
+  --primary2-300:#8A9CC0;
+  --primary2-400:#7487AD;
+  --primary2-500:#5D729C;
+  --primary2-600:#4E658B;
+  --primary2-700:#3E5173;
+  --primary2-800:#2E3F5D;
+  --primary2-900:#1B2B45;
+
+  --secondary-50: #FCFCFC;
+  --secondary-100: #F7F7F7; 
+  --secondary-200: #F2F2F2; 
+  --secondary-300: #EAEAEA; 
+  --secondary-400: #C8C8C8; 
+  --secondary-500: #AAAAAA; 
+  --secondary-600S: #808080; 
+  --secondary-700: #6B6B6B; 
+  --secondary-800: #4C4C4C; 
+  --secondary-900: #2A2A2A; 
+
+  --attention-50: #E4F1FA;
+  --attention-100: #BDDBF3;
+  --attention-200: #96C6EB;
+  --attention-300P: #71AFE2;
+  --attention-400: #589FDD;
+  --attention-500: #3E90DA;
+  --attention-600: #3882CD;
+  --attention-700: #3071BB;
+  --attention-800: #2760AA;
+  --attention-900: #18438D;
+}
+
+/*********** Reset Css Style ************/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "pretendard", sans-serif;
+  background: #fff;
+  color: var(--secondary-600S);
+}
+
+ol, ul{
+  list-style: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+em, strong, i, b{
+  font-style: normal;
+  font-weight: normal;
+}
+
+img{
+  display: block;
+}
+
+input, textarea, button, select, 
+input::placeholder, textarea::placeholder{
+  border: none;
+  color: inherit;
+  font-family: "pretendard", sans-serif;
+  outline: 0;
+}
